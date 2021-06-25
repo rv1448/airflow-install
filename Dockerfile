@@ -3,7 +3,6 @@ FROM astronomerinc/ap-airflow:1.10.10-4-buster
 
 COPY requirements.txt requirements.txt
 COPY load_variables.py /usr/local/airflow/load_variables.py
-ENV ICU_VERSION=2.4.2
 USER root
 
 RUN apt-get update && apt-get -y install libicu-dev libffi-dev && apt-get -y install gcc && \
