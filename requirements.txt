@@ -1,0 +1,10 @@
+snowflake-connector-python==2.2.10
+numpy==1.19.1
+Jinja2==2.11.2
+boto3==1.14.45
+teradatasql==17.0.0.4
+cx_oracle==8.0.1
+pyyaml==5.3.1
+airflow-dbt==0.1.1
+dbt==0.17.2
+gunicorn==19.4.0
